@@ -1,4 +1,4 @@
-package xyz.monkeytong.hongbao.utils;
+package com.eryansky.weixinhb.utils;
 
 import android.app.KeyguardManager;
 import android.content.Context;

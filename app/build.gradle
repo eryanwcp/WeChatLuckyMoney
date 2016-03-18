@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "xyz.monkeytong.hongbao"
+        applicationId "com.eryansky.weixinhb"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 2

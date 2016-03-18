@@ -1,4 +1,4 @@
-package xyz.monkeytong.hongbao.services;
+package com.eryansky.weixinhb.services;
 
 import android.accessibilityservice.AccessibilityService;
 import android.app.Notification;
@@ -13,13 +13,10 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
-import xyz.monkeytong.hongbao.utils.HongbaoSignature;
-import xyz.monkeytong.hongbao.utils.PowerUtil;
+import com.eryansky.weixinhb.utils.HongbaoSignature;
+import com.eryansky.weixinhb.utils.PowerUtil;
 
 import java.util.List;
-
-import xyz.monkeytong.hongbao.utils.HongbaoSignature;
-import xyz.monkeytong.hongbao.utils.PowerUtil;
 
 
 public class HongbaoService extends AccessibilityService implements SharedPreferences.OnSharedPreferenceChangeListener {

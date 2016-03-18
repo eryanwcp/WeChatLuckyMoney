@@ -1,4 +1,4 @@
-package xyz.monkeytong.hongbao.utils;
+package com.eryansky.weixinhb.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

@@ -1,13 +1,13 @@
-package xyz.monkeytong.hongbao.fragments;
+package com.eryansky.weixinhb.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
-import xyz.monkeytong.hongbao.R;
-import xyz.monkeytong.hongbao.activities.WebViewActivity;
-import xyz.monkeytong.hongbao.utils.UpdateTask;
+import com.eryansky.weixinhb.R;
+import com.eryansky.weixinhb.activities.WebViewActivity;
+import com.eryansky.weixinhb.utils.UpdateTask;
 
 /**
  * Created by Zhongyi on 2/4/16.
@@ -22,13 +22,13 @@ public class GeneralSettingsFragment extends PreferenceFragment {
 
     private void setPrefListeners() {
         // Check for updates
-        Preference updatePref = findPreference("pref_etc_check_update");
-        updatePref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            public boolean onPreferenceClick(Preference preference) {
-                new UpdateTask(getActivity().getApplicationContext(), true).update();
-                return false;
-            }
-        });
+//        Preference updatePref = findPreference("pref_etc_check_update");
+//        updatePref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+//            public boolean onPreferenceClick(Preference preference) {
+//                new UpdateTask(getActivity().getApplicationContext(), true).update();
+//                return false;
+//            }
+//        });
 
         // Open issue
         Preference issuePref = findPreference("pref_etc_issue");
